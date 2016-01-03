@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexBazile.MvvmCross.Plugin.TextToSpeech", "AlexBazile.MvvmCross.Plugin.TextToSpeech\AlexBazile.MvvmCross.Plugin.TextToSpeech.csproj", "{28A8BD58-6559-434E-ABAA-D5361988EDF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexBazile.MvvmCross.Plugin.TextToSpeech.WindowsCommon", "AlexBazile.MvvmCross.Plugin.TextToSpeech.WindowsUWP\AlexBazile.MvvmCross.Plugin.TextToSpeech.WindowsCommon.csproj", "{4140AEF1-7642-468D-9D19-ECE7A7E4798A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28A8BD58-6559-434E-ABAA-D5361988EDF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A8BD58-6559-434E-ABAA-D5361988EDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A8BD58-6559-434E-ABAA-D5361988EDF7}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{28A8BD58-6559-434E-ABAA-D5361988EDF7}.Debug|ARM.Build.0 = Debug|Any CPU
+		{28A8BD58-6559-434E-ABAA-D5361988EDF7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{28A8BD58-6559-434E-ABAA-D5361988EDF7}.Debug|x64.Build.0 = Debug|Any CPU
+		{28A8BD58-6559-434E-ABAA-D5361988EDF7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{28A8BD58-6559-434E-ABAA-D5361988EDF7}.Debug|x86.Build.0 = Debug|Any CPU
+		{28A8BD58-6559-434E-ABAA-D5361988EDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A8BD58-6559-434E-ABAA-D5361988EDF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A8BD58-6559-434E-ABAA-D5361988EDF7}.Release|ARM.ActiveCfg = Release|Any CPU
+		{28A8BD58-6559-434E-ABAA-D5361988EDF7}.Release|ARM.Build.0 = Release|Any CPU
+		{28A8BD58-6559-434E-ABAA-D5361988EDF7}.Release|x64.ActiveCfg = Release|Any CPU
+		{28A8BD58-6559-434E-ABAA-D5361988EDF7}.Release|x64.Build.0 = Release|Any CPU
+		{28A8BD58-6559-434E-ABAA-D5361988EDF7}.Release|x86.ActiveCfg = Release|Any CPU
+		{28A8BD58-6559-434E-ABAA-D5361988EDF7}.Release|x86.Build.0 = Release|Any CPU
+		{4140AEF1-7642-468D-9D19-ECE7A7E4798A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4140AEF1-7642-468D-9D19-ECE7A7E4798A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4140AEF1-7642-468D-9D19-ECE7A7E4798A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{4140AEF1-7642-468D-9D19-ECE7A7E4798A}.Debug|ARM.Build.0 = Debug|ARM
+		{4140AEF1-7642-468D-9D19-ECE7A7E4798A}.Debug|x64.ActiveCfg = Debug|x64
+		{4140AEF1-7642-468D-9D19-ECE7A7E4798A}.Debug|x64.Build.0 = Debug|x64
+		{4140AEF1-7642-468D-9D19-ECE7A7E4798A}.Debug|x86.ActiveCfg = Debug|x86
+		{4140AEF1-7642-468D-9D19-ECE7A7E4798A}.Debug|x86.Build.0 = Debug|x86
+		{4140AEF1-7642-468D-9D19-ECE7A7E4798A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4140AEF1-7642-468D-9D19-ECE7A7E4798A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4140AEF1-7642-468D-9D19-ECE7A7E4798A}.Release|ARM.ActiveCfg = Release|ARM
+		{4140AEF1-7642-468D-9D19-ECE7A7E4798A}.Release|ARM.Build.0 = Release|ARM
+		{4140AEF1-7642-468D-9D19-ECE7A7E4798A}.Release|x64.ActiveCfg = Release|x64
+		{4140AEF1-7642-468D-9D19-ECE7A7E4798A}.Release|x64.Build.0 = Release|x64
+		{4140AEF1-7642-468D-9D19-ECE7A7E4798A}.Release|x86.ActiveCfg = Release|x86
+		{4140AEF1-7642-468D-9D19-ECE7A7E4798A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
