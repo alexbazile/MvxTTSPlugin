@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexBazile.MvvmCross.Plugin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexBazile.MvvmCross.Plugin.TextToSpeech.WindowsCommon", "AlexBazile.MvvmCross.Plugin.TextToSpeech.WindowsUWP\AlexBazile.MvvmCross.Plugin.TextToSpeech.WindowsCommon.csproj", "{4140AEF1-7642-468D-9D19-ECE7A7E4798A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementation", "Implementation", "{6C8F2E9A-9B73-499B-89FB-7997B3E9CC1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTSDemo.UWP", "Implementation\TTSDemo.UWP\TTSDemo.UWP.csproj", "{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,8 +55,33 @@ Global
 		{4140AEF1-7642-468D-9D19-ECE7A7E4798A}.Release|x64.Build.0 = Release|x64
 		{4140AEF1-7642-468D-9D19-ECE7A7E4798A}.Release|x86.ActiveCfg = Release|x86
 		{4140AEF1-7642-468D-9D19-ECE7A7E4798A}.Release|x86.Build.0 = Release|x86
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Debug|Any CPU.Build.0 = Debug|x86
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Debug|Any CPU.Deploy.0 = Debug|x86
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Debug|ARM.Build.0 = Debug|ARM
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Debug|ARM.Deploy.0 = Debug|ARM
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Debug|x64.ActiveCfg = Debug|x64
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Debug|x64.Build.0 = Debug|x64
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Debug|x64.Deploy.0 = Debug|x64
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Debug|x86.ActiveCfg = Debug|x86
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Debug|x86.Build.0 = Debug|x86
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Debug|x86.Deploy.0 = Debug|x86
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Release|Any CPU.ActiveCfg = Release|x86
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Release|ARM.ActiveCfg = Release|ARM
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Release|ARM.Build.0 = Release|ARM
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Release|ARM.Deploy.0 = Release|ARM
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Release|x64.ActiveCfg = Release|x64
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Release|x64.Build.0 = Release|x64
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Release|x64.Deploy.0 = Release|x64
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Release|x86.ActiveCfg = Release|x86
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Release|x86.Build.0 = Release|x86
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E537E4A3-A4BA-4284-972E-5CD8EA1CEA26} = {6C8F2E9A-9B73-499B-89FB-7997B3E9CC1B}
 	EndGlobalSection
 EndGlobal
