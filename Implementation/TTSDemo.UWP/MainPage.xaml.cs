@@ -31,6 +31,7 @@ namespace TTSDemo.UWP
 
         private async void button_Click(object sender, RoutedEventArgs e)
         {
+            //This logic could be easily be in a Core Project with the MVVM Pattern in place
             string text = textBox.Text;
 
             if (!string.IsNullOrEmpty(text))
